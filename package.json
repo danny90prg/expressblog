@@ -1,0 +1,22 @@
+{
+  "name": "expressblog",
+  "version": "1.0.0",
+  "description": "express for blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danny90prg/expressblog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danny90prg/expressblog/issues"
+  },
+  "homepage": "https://github.com/danny90prg/expressblog#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
