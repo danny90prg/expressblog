@@ -19,4 +19,9 @@ app.listen(3000, function () {
 4. node app.js
 5. git ignore node_modules
 6. npm install express-generator -g
-7. 
+
+
+```
+git rm -r –cached .
+캐쉬비우기
+```
