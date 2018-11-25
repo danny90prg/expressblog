@@ -19,7 +19,11 @@ app.listen(3000, function () {
 4. node app.js
 5. git ignore node_modules
 6. npm install express-generator -g
-
+7. express --view=pug myapp
+8. cd myapp
+9. npm install
+10. DEBUG=myapp:* npm start # osx, linux
+11. set DEBUG=myapp:* & npm start # win, cmd insted of powershell
 
 ```
 git rm -r –cached .
