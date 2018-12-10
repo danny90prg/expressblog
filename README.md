@@ -29,3 +29,23 @@ app.listen(3000, function () {
 git rm -r –cached .
 캐쉬비우기
 ```
+
+``` sh
+npm install nodemon -g
+```
+-> global로 설치해야함
+
+```
+nodemon app.js
+nodemon app.js localhost 3000
+modemon --debug app.js 80
+```
+
+```
+npm install pm2 -g
+pm2 start app.js
+pm2 info app
+pm2 start app.js --watch
+pm2 kill
+```
+https://blog.outsider.ne.kr/1197
