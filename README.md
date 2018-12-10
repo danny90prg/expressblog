@@ -49,3 +49,16 @@ pm2 start app.js --watch
 pm2 kill
 ```
 https://blog.outsider.ne.kr/1197
+
+```
+npm install express-generator -g
+express --view=pug myapp
+cd myapp
+npm install
+
+DEBUG=myapp:* npm start
+```
+https://hostpresto.com/community/tutorials/how-to-install-and-use-pm2-for-express-application/
+
+pm2 start./bin/www
+-> 설치된 디렉토리에서 실행하면됨
